@@ -202,16 +202,14 @@
 				height: 38px;
 				line-height: 38px;
 				text-align: center;
-				color: #3B414D; /*rgba(255,255,255,0.75)*/
-				background-color: rgba(255,255,255,0.75) /*rgba(92,95,103,0.5)*/;
+				color: #fff; /*rgba(255,255,255,0.75)*/
+				background-color: #E8A13F /*rgba(92,95,103,0.5)*/;
 				border-radius: 0.25em;
 				-moz-transition: all .15s ease-in-out;
 				-webkit-transition: all .15s ease-in-out;
 				-o-transition: all .15s ease-in-out;
 				-ms-transition: all .15s ease-in-out;
 				transition: all .15s ease-in-out;
-				/*toegevoegd*/
-				border: 1px solid #3B414D;
 			}
 
 			#titleBar .toggle:active:before

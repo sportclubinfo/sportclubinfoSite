@@ -435,7 +435,7 @@
 			input[type="reset"].style4,
 			.button.style4
 			{
-				background: green url('images/overlay.png');
+				background: #255330 url('images/overlay.png');
 				color: #fff;
 			}
 
@@ -444,7 +444,7 @@
 				input[type="reset"].style4:hover,
 				.button.style4:hover
 				{
-					background-color: lightgreen;
+					background-color: #304234;
 				}
 				
 				input[type="button"].style4:active,
@@ -527,7 +527,7 @@
 
 			.feature-list h3
 			{
-				color: green !important; /*#e97770*/
+				color: #FF6D00 !important; /*aangepast #e97770*/
 			}
 			
 				.feature-list h3:before
@@ -614,14 +614,14 @@
 
 		.wrapper.style1
 		{
-			background: #3B414D url('images/overlay.png'); /*aangepast #e97770*/
+			background: #E8A13F url('images/overlay.png');  /*#e97770*/
 			color: #eee;
-			color: rgba(255,255,255,0.75);
+			color: #fff; /*aangepast rgba(255,255,255,0.75)*/
 		}
 		
 			.wrapper.style1 .title
 			{
-				background: #3B414D url('images/overlay.png'); /*aangepast #e97770*/
+				background: #E8A13F url('images/overlay.png'); /*aangepast #e97770*/
 				color: #fff;
 			}
 		
@@ -662,7 +662,7 @@
 			
 			.wrapper.style3 .image
 			{
-				border: solid 10px #fff;
+				/*aangepast border: solid 10px #fff;*/
 			}
 
 	#header-wrapper
@@ -684,8 +684,8 @@
 	
 	#footer-wrapper
 	{
-		background: #282b34 url('images/overlay.png');
-		color: #eee;
+		background: #E8A13F  url('images/overlay.png'); /*aangepast #282b34*/
+		color: #fff;
 		color: rgba(255,255,255,0.5);
 	}
 
@@ -718,7 +718,7 @@
 			#footer-wrapper form select,
 			#footer-wrapper form textarea
 			{
-				background: #ccc;
+				background: #fff;
 				box-shadow: none;
 			}
 
@@ -759,8 +759,8 @@
 
 		#footer-wrapper .title
 		{
-			background: #282b34 url('images/overlay.png');
-			color: #eee;
+			background: #E8A13F  url('images/overlay.png'); /*aangepast #282b34*/
+			color: #fff;
 		}
 		
 		#footer-wrapper header.style1
@@ -863,7 +863,7 @@
 		
 			#highlights .highlight h3
 			{
-				color: green/*aangepast #e97770;*/
+				color: #FF6D00/*aangepast #e97770;*/
 			}
 
 /*********************************************************************************/
@@ -893,3 +893,28 @@
 			{
 				color: #fff;
 			}
+                        
+/*aangepast*/
+.next{
+    font-size: 70px;
+    text-decoration: none;
+}
+.next:hover{
+    color: #eee !important;
+}
+.mijn{
+    text-decoration: none;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 4px;
+    z-index: 999;
+}
+.mijn:hover{
+    color: #eee;
+    border-color: #eee;
+}

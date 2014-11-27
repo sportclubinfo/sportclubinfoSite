@@ -171,7 +171,7 @@
 		
 			.feature-list p
 			{
-				margin: 0 0 0 5em;
+				margin: 0; /*aangepast 0 0 0 5em */
 			}
 			
 			.feature-list.small
@@ -352,7 +352,7 @@
 			border-radius: 0.35em;
 			box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.25);
 			padding: 0 1.5em 0 1.5em;
-			background-color: #3B414D;
+			background-color: #E8A13F; /*aangepast */
 		}
 
 		#nav > ul > li
@@ -366,8 +366,8 @@
 			#nav > ul > li > span
 			{
 				display: block;
-				color: #eee;
-				color: rgba(255,255,255,0.75);
+				color: #fff; /*aangepast #eee*/
+				/*color: rgba(255,255,255,0.75);*/
 				text-transform: uppercase;
 				text-decoration: none;
 				font-size: 0.7em;
@@ -386,7 +386,7 @@
 			#nav > ul > li.active > a,
 			#nav > ul > li.active > span
 			{
-				color: #fff;
+				color: #eee; /*aangepast #fff*/
 			}
 
 	.dropotron
