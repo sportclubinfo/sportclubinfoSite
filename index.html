@@ -37,17 +37,17 @@
 						<nav id="nav">
 							<ul>
 								<li class="current"><a href="index.html">Intro</a></li>
-								<li><a href="#">Pakketten</a></li>
-								<li><a href="#">Demo</a></li>
-								<li><a href="#">Veelgestelde vragen</a></li>
-								<li><a href="#">Contact</a></li>
+								<li><a href="#pakketten">Pakketten</a></li>
+								<li><a href="#demo">Demo</a></li>
+								<li><a href="#faq">Veelgestelde vragen</a></li>
+								<li><a href="#contact">Contact</a></li>
 							</ul>
 						</nav>
  
 				</div>
 			</div>
 		
-		<!-- Intro -->
+		<!-- Introductie -->
 			<div id="intro-wrapper" class="wrapper style1">
 				<div class="title">Introductie</div>
 				<section id="intro" class="container">
@@ -57,14 +57,14 @@
                                         <p class="style3">No soluta iudicabit sed. Aliquid facilisis imperdiet sed in, graece minimum id eos. Ad dicam tempor est. Malis pertinax mandamus eu ius. Ei ubique molestie vis, perfecto legendos ea sit, natum aeterno id mel.</p><br/>
                                         <p class="style3">Nec dicta exerci ne, maluisset deterruisset in usu. An eum modus voluptua neglegentur, ludus maluisset ad sed, iriure disputationi ea has. At choro audiam quo, ei nec doming dignissim, in sit libris nemore. Percipit assentior sea ad. No omnes iriure eos.</p>
 					<ul class="actions">
-                                            <li><a href="#" class="next"><span class="fa fa-arrow-circle-o-down"></span></a></li>
+                                            <li><a href="#pakketten" class="next"><span class="fa fa-arrow-circle-o-down"></span></a></li>
 					</ul>
 				</section>
 			</div>
 
 		<!-- Paketten -->
 			<div class="wrapper style3">
-				<div class="title">Pakketten</div>
+				<div id="pakketten" class="title">Pakketten</div>
 				<div id="highlights" class="container">
 					<div class="row 150%">
 						<div class="4u">
@@ -73,7 +73,7 @@
 								<h3><a href="#">TV</a></h3>
 								<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
 								<ul class="actions">
-									<li><a href="#" class="button style4"><span class="fa fa-thumbs-o-up"></span> Bestel</a></li>
+									<li><a href="#" class="button style1"><span class="fa fa-thumbs-o-up"></span> Bestel</a></li>
 								</ul>
 							</section>
 						</div>
@@ -83,7 +83,7 @@
 								<h3><a href="#">WEB</a></h3>
 								<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
 								<ul class="actions">
-									<li><a href="#" class="button style4"><span class="fa fa-thumbs-o-up"></span> Bestel</a></li>
+									<li><a href="#" class="button style1"><span class="fa fa-thumbs-o-up"></span> Bestel</a></li>
 								</ul>
 							</section>
 						</div>
@@ -93,7 +93,7 @@
 								<h3><a href="#">TV+WEB</a></h3>
 								<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
 								<ul class="actions">
-									<li><a href="#" class="button style4"><span class="fa fa-thumbs-o-up"></span> Bestel</a></li>
+									<li><a href="#" class="button style1"><span class="fa fa-thumbs-o-up"></span> Bestel</a></li>
 								</ul>
 							</section>
 						</div>
@@ -102,19 +102,21 @@
 			</div>
 		<!-- Main -->
 			<div class="wrapper style2">
-				<div class="title">Demo</div>
+				<div id="demo" class="title">Demo</div>
 				<div id="main" class="container">
 					
 					<!-- Image -->
 						<a href="#" class="image featured">
 							<img src="images/pic01.jpg" alt="" />
 						</a>
-					
+                                </div>
+                        </div>
+                <!-- FAQ -->
+                <div class="wrapper style3">
+				<div id="faq" class="title">Veel gestelde vragen</div>
+				<section  class="container">
 					<!-- Features -->
 						<section id="features">
-							<header class="style1">
-								<h2>Veel gestelde vragen</h2>
-							</header>
 							<div class="feature-list">
 								<div class="row">
 									<div class="6u">
@@ -165,13 +167,13 @@
 			</div>
 		<!-- Footer -->
 			<div id="footer-wrapper" class="wrapper">
-				<div class="title">The Rest Of It</div>
+				<div id="contact" class="title">Contact</div>
 				<div id="footer" class="container">
 					<header class="style1">
-						<h2>Ipsum sapien elementum portitor?</h2>
+						<h2>Contact met ons opnemen?</h2>
 						<p>
-							Sed turpis tortor, tincidunt sed ornare in metus porttitor mollis nunc in aliquet.<br />
-							Nam pharetra laoreet imperdiet volutpat etiam consequat feugiat.
+							Heeft u nog vragen of opmerkingen? Neem dan contact met ons op via onderstaand formulier<br />
+							Wij zullen u zo spoedig mogelijk antwoorden.
 						</p>
 					</header>
 					<hr />
@@ -183,7 +185,7 @@
 									<form method="post" action="#">
 										<div class="row 50%">
 											<div class="6u">
-												<input type="text" name="name" id="contact-name" placeholder="Name" />
+												<input type="text" name="name" id="contact-name" placeholder="Uw naam" />
 											</div>
 											<div class="6u">
 												<input type="text" name="email" id="contact-email" placeholder="Email" />
@@ -191,13 +193,13 @@
 										</div>
 										<div class="row 50%">
 											<div class="12u">
-												<textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
+												<textarea name="message" id="contact-message" placeholder="Uw vraag" rows="4"></textarea>
 											</div>
 										</div>
 										<div class="row">
 											<div class="12u">
 												<ul class="actions">
-													<li><input type="submit" class="style4" value="Send" /></li>
+													<li><input type="submit" class="style4" value="Versturen" /></li>
 													<li><input type="reset" class="style2" value="Reset" /></li>
 												</ul>
 											</div>
@@ -213,11 +215,11 @@
 									<div class="row">
 										<div class="6u">
 											<section>
-												<h3 class="icon fa-home">Mailing Address</h3>
+												<h3 class="icon fa-home">Adres gegevens</h3>
 												<p>
-													Untitled Corporation<br />
-													1234 Somewhere Rd #987<br />
-													Nashville, TN 00000-0000
+													Wat<br />
+													doen we<br />
+													hiermee
 												</p>
 											</section>
 										</div>
@@ -225,9 +227,8 @@
 											<section>
 												<h3 class="icon fa-comment">Social</h3>
 												<p>
-													<a href="#">@untitled-corp</a><br />
-													<a href="#">linkedin.com/untitled</a><br />
-													<a href="#">facebook.com/untitled</a>
+													<a href="twitter@sportclubinfo.nl">Twitter</a><br />
+													<a href="https://www.facebook.com/pages/Sportclubinfo/384369061725033">Facebook</a><br />
 												</p>
 											</section>
 										</div>
@@ -237,13 +238,13 @@
 											<section>
 												<h3 class="icon fa-envelope">Email</h3>
 												<p>
-													<a href="#">info@untitled.tld</a>
+													<a href="#">info@sportclubinfo.nl</a>
 												</p>
 											</section>
 										</div>
 										<div class="6u">
 											<section>
-												<h3 class="icon fa-phone">Phone</h3>
+												<h3 class="icon fa-phone">Telefoon</h3>
 												<p>
 													(000) 555-0000
 												</p>

@@ -282,7 +282,7 @@
 			
 			header.style1 p
 			{
-				color: #b1b4b9;
+				color: #eee;/* aangepast #b1b4b9*/
 			}
 
 	/* Image */
@@ -359,7 +359,7 @@
 			input[type="reset"].style1,
 			.button.style1
 			{
-				background: #e97770 url('images/overlay.png');
+				background: #ff9933 url('images/overlay.png'); /*aangepast #e97770*/
 				color: #fff;
 			}
 
@@ -368,7 +368,7 @@
 				input[type="reset"].style1:hover,
 				.button.style1:hover
 				{
-					background-color: #f98780;
+					background-color: #B57128; /*aangepast #f98780*/
 				}
 				
 				input[type="button"].style1:active,
@@ -385,7 +385,7 @@
 			.button.style2
 			{
 				background: none;
-				color: #606167;
+				color: #fff ; /*aangepast #606167*/
 				box-shadow: inset 0px 0px 2px 0px #a0a1a7;
 			}
 			
@@ -410,7 +410,7 @@
 			input[type="reset"].style3,
 			.button.style3
 			{
-				background: #2f333b url('images/overlay.png');
+				background: #f3f3f3 url('images/overlay.png'); /*aangepast #2f333b*/
 				color: #fff;
 			}
 
@@ -419,7 +419,7 @@
 				input[type="reset"].style3:hover,
 				.button.style3:hover
 				{
-					background-color: #3f434b;
+					background-color: #6E746D;
 				}
 				
 				input[type="button"].style3:active,
@@ -435,7 +435,7 @@
 			input[type="reset"].style4,
 			.button.style4
 			{
-				background: #255330 url('images/overlay.png');
+				background: #6E746D url('images/overlay.png');
 				color: #fff;
 			}
 
@@ -444,7 +444,7 @@
 				input[type="reset"].style4:hover,
 				.button.style4:hover
 				{
-					background-color: #304234;
+					background-color: #3F4241;
 				}
 				
 				input[type="button"].style4:active,
@@ -527,7 +527,7 @@
 
 			.feature-list h3
 			{
-				color: #FF6D00 !important; /*aangepast #e97770*/
+				color: #FF6D00; /*aangepast #e97770*/
 			}
 			
 				.feature-list h3:before
@@ -614,14 +614,14 @@
 
 		.wrapper.style1
 		{
-			background: #E8A13F url('images/overlay.png');  /*#e97770*/
+			background: #ff9933 url('images/overlay.png');  /*#e97770*/
 			color: #eee;
 			color: #fff; /*aangepast rgba(255,255,255,0.75)*/
 		}
 		
 			.wrapper.style1 .title
 			{
-				background: #E8A13F url('images/overlay.png'); /*aangepast #e97770*/
+				background: #ff9933 url('images/overlay.png'); /*aangepast #e97770*/
 				color: #fff;
 			}
 		
@@ -684,9 +684,9 @@
 	
 	#footer-wrapper
 	{
-		background: #E8A13F  url('images/overlay.png'); /*aangepast #282b34*/
+		background: #ff9933  url('images/overlay.png'); /*aangepast #282b34*/
 		color: #fff;
-		color: rgba(255,255,255,0.5);
+		/*color: rgba(255,255,255,0.5);*/
 	}
 
 		#footer-wrapper h1,
@@ -704,8 +704,8 @@
 
 		#footer-wrapper hr
 		{
-			border-top-color: #333;
-			border-top-color: rgba(255,255,255,0.05);
+			/*border-top-color: #333;*/
+			border-top-color: #f3f3f3; /*rgba(255,255,255,0.05);*/
 		}
 
 		#footer-wrapper form
@@ -736,7 +736,7 @@
 		#footer-wrapper input[type="reset"].style2,
 		#footer-wrapper .button.style2
 		{
-			color: #aaa;
+			color: #fff; /*aangepast #aaa*/
 			box-shadow: inset 0px 0px 2px 0px rgba(255,255,255,0.5);
 		}
 
@@ -745,7 +745,7 @@
 			#footer-wrapper input[type="reset"].style2:hover,
 			#footer-wrapper .button.style2:hover
 			{
-				color: #ccc;
+				color: #eee; /*aangepast #ccc*/
 				box-shadow: inset 0px 0px 2px 0px rgba(255,255,255,0.65);
 			}
 
@@ -759,7 +759,7 @@
 
 		#footer-wrapper .title
 		{
-			background: #E8A13F  url('images/overlay.png'); /*aangepast #282b34*/
+			background: #ff9933  url('images/overlay.png'); /*aangepast #282b34*/
 			color: #fff;
 		}
 		
@@ -783,17 +783,18 @@
 		
 			#footer-wrapper .feature-list section
 			{
-				border-top-color: #333;
-				border-top-color: rgba(255,255,255,0.05);
+				/*border-top-color: #333;*/
+				border-top-color: #f3f3f3; /*aangepast rgba(255,255,255,0.05);*/
 			}
 
 			#footer-wrapper .feature-list h3
 			{
+                            color: #6E746D;
 			}
 			
 				#footer-wrapper .feature-list h3:before
 				{
-					background: #3d4249 url('images/overlay.png');
+					background: #6E746D url('images/overlay.png'); /*aangepast #3d4249*/
 				}
 		
 /*********************************************************************************/
@@ -906,10 +907,11 @@
     text-decoration: none;
     position: relative;
     float: right;
-    margin-right: 10px;
-    margin-top: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
     color: #fff;
     border: 1px solid #fff;
+    background-color: green;
     padding: 5px;
     border-radius: 4px;
     z-index: 999;
@@ -917,4 +919,5 @@
 .mijn:hover{
     color: #eee;
     border-color: #eee;
+        background-color: darkgreen;
 }
