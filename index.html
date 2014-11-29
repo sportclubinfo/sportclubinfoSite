@@ -11,6 +11,8 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+                <script src="js/sportclubinfo.js"></script>
+                <script src="js/jquery.scrollNav.min.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -19,9 +21,19 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body class="homepage">
+            <!--<div class="menu-body">
+                <ul>
+                    <li class="selected"><a href="#introductie">Intro</a></li>
+                    <li><a href="#pakketten">Pakketen</a></li>
+                    <li><a href="#demo">Demo</a></li>
+                    <li><a href="#faq">Vragen</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div> -->
 
 		<!-- Header -->
-                                    <a href="#" class="mijn"><span class="fa fa-lock"></span> Inloggen</a>
+                <a href="#" class="mijn"><span class="fa fa-lock"></span> Inloggen</a>
+                                   
 			<div id="header-wrapper" class="wrapper">
 				<div id="header">
                 
@@ -36,7 +48,7 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li class="current"><a href="index.html">Intro</a></li>
+                                                                <li><a href="#introductie">Intro</a></li>
 								<li><a href="#pakketten">Pakketten</a></li>
 								<li><a href="#demo">Demo</a></li>
 								<li><a href="#faq">Veelgestelde vragen</a></li>
@@ -46,12 +58,12 @@
  
 				</div>
 			</div>
-		
+            <article id="sidemenu">
 		<!-- Introductie -->
 			<div id="intro-wrapper" class="wrapper style1">
-				<div class="title">Introductie</div>
+				<div id="introductie" class="title"><h2>Introductie</h2></div>
 				<section id="intro" class="container">
-					<p class="style1">Hier komt uitleg over wat sportclubinfo doet</p>
+					<p  class="style1">Hier komt uitleg over wat sportclubinfo doet</p>
 		
                                         <p class="style3">Lorem ipsum dolor sit amet, choro tritani nec no, ad case dolor invidunt sed. Duo agam audiam ad. Vivendum scriptorem intellegebat qui ut, antiopam recteque qui cu. Dolore vivendum invenire id mei, cu vix nostro qualisque. An admodum expetenda sit.</p><br/>
                                         <p class="style3">No soluta iudicabit sed. Aliquid facilisis imperdiet sed in, graece minimum id eos. Ad dicam tempor est. Malis pertinax mandamus eu ius. Ei ubique molestie vis, perfecto legendos ea sit, natum aeterno id mel.</p><br/>
@@ -63,8 +75,9 @@
 			</div>
 
 		<!-- Paketten -->
+
 			<div class="wrapper style3">
-				<div id="pakketten" class="title">Pakketten</div>
+                            <div id="pakketten" class="title"><h2>Pakketten</h2></div>
 				<div id="highlights" class="container">
 					<div class="row 150%">
 						<div class="4u">
@@ -102,18 +115,18 @@
 			</div>
 		<!-- Main -->
 			<div class="wrapper style2">
-				<div id="demo" class="title">Demo</div>
+                            <div id="demo" class="title"><h2>Demo</h2></div>
 				<div id="main" class="container">
 					
 					<!-- Image -->
 						<a href="#" class="image featured">
-							<img src="images/pic01.jpg" alt="" />
+							
 						</a>
                                 </div>
                         </div>
                 <!-- FAQ -->
                 <div class="wrapper style3">
-				<div id="faq" class="title">Veel gestelde vragen</div>
+                    <div id="faq" class="title"><h2>Veel gestelde vragen</h2></div>
 				<section  class="container">
 					<!-- Features -->
 						<section id="features">
@@ -164,13 +177,13 @@
 						</section>
 				
 				</div>
-			</div>
+
 		<!-- Footer -->
 			<div id="footer-wrapper" class="wrapper">
-				<div id="contact" class="title">Contact</div>
+                            <div id="contact" class="title"><h2>Contact</h2></div>
 				<div id="footer" class="container">
 					<header class="style1">
-						<h2>Contact met ons opnemen?</h2>
+						<h1>Contact met ons opnemen?</h1>
 						<p>
 							Heeft u nog vragen of opmerkingen? Neem dan contact met ons op via onderstaand formulier<br />
 							Wij zullen u zo spoedig mogelijk antwoorden.
@@ -263,6 +276,6 @@
 					</ul>
 				</div>
 			</div>
-
+            </article>
 	</body>
 </html>
