@@ -925,42 +925,63 @@
 
 
 .scroll-nav{
-    position: fixed;
+    position: absolute;
     left: 0;
-    top: 100%;
+    top: 18%;
     //width: 8em;
-    background-color: green;
-    border: 1px solid darkgreen;
-    border-left:none;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-        z-index:1;
+    z-index:1;
 }
-.fixed{
-    top: 10%;
 
+.scroll-nav__item{
+    background-color: green;
+    border-right: 1px solid darkgreen;
+    border-left:none;
 }
-.scroll-nav__list a{
+.scroll-nav__item:first-child{
+        border-top: 1px solid darkgreen;
+        border-top-right-radius: 4px;
+}
+.scroll-nav__item:last-child{
+        border-bottom: 1px solid darkgreen;
+        border-bottom-right-radius: 4px;
+}
+
+
+.scroll-nav a{
         color: white;
         font-size: 12px;
         text-decoration:none;
         padding:0 5px 0 5px;
+
 }
 
-.scroll-nav__list ul{
-            margin:0px;
+.scroll-nav__list{
+            margin-bottom:0px;
 }
 
-.scroll-nav__list li:hover{
+.scroll-nav li:hover{
     background-color: lightgreen;
 }
 
 @media screen and (max-width: 736px){
-    .scroll-nav__list{
+    .scroll-nav{
         z-index: -9999;
     }
 }
 
+.scroll-nav__link{
+    display:block;
+}
+
 .active{
       background-color: lightgreen; 
+}
+
+.fixed{
+    position: fixed;
+
+}
+
+#introductie{
+    text-decoration:none;
 }
