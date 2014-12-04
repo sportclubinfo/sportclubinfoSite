@@ -75,9 +75,14 @@ img{
 }
 
 .navbar-brand h1{
-	color: #fff;
-  font-size: 20px;
-  line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+}
+@media screen and (max-width: 900px) {
+ .navbar-brand h1{
+    font-size: 12px;
+    }   
 }
 
 .navbar-brand:focus {
@@ -347,6 +352,14 @@ hr {
 	border-style: none;
 	text-shadow: -1px 0 1px #000;
 }
+@media screen and (max-width: 500px) {
+    .intro .slogan h2 {
+        font-size:30px;
+    }
+    .intro .slogan h4 {
+        font-size:16px;
+    }   
+}
 
 .intro .slogan h4 {
 	color: #fff;
@@ -448,8 +461,8 @@ form#contact-form .form-group label {
 	font-size: 12px;
 }
 form#contact-form input,form#contact-form select,form#contact-form textarea {
-	border-radius: 0;
-	border: 1px solid #eee;
+	//border-radius: 0;
+	border: 1px solid #fff;
   -webkit-box-shadow: none;
           box-shadow:  none;
 }
@@ -525,13 +538,12 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 
 footer {
 	text-align: center;
-	padding: 50px 0 ;
-	
+	padding: 50px 0 50px 0;
+	background-image: url('images/overlay.png');
+        color: #fff;
 }
 
-footer p {
-	color: #f8f8f8;
-}
+
 
 /* ==========================
 Parallax
@@ -591,6 +603,7 @@ Parallax
     width: 70px;
     height: 70px;
     margin-top: 15px;
+    margin-bottom: 20px;
     padding: 7px 16px;
     border: 2px solid #fff;
     border-radius: 50%;
@@ -715,6 +728,15 @@ Parallax
 .btn-orange:hover{
     color: #fff;
     background-color: #AE6D26;
+    
+}.btn-grey{
+    background: #6E746D url('images/overlay.png');
+    color: #fff;
+    border-radius: 4px;
+}
+.btn-grey:hover{
+    background-color: #3F4241;
+    color:#fff;
 }
 .btn-big{
     padding: 10px 15px 10px 15px;
@@ -804,9 +826,10 @@ Parallax
 		height: 40px;
 		margin-top: 10px;
 		padding: 7px 0;
-		border: 2px solid #fff;
+		//border: 2px solid #fff;
 		border-radius: 50%;
 		font-size: 20px;
+                margin-bottom: 20px;
 	}
 	
 }
@@ -859,30 +882,92 @@ height: 100%;
 border: 0;
 }
 
-.facebook{
-    color: #3873ae;
-    border-color:#3873ae;
-}
-
 .facebook:hover{
-    color: #4893ce;
-    border-color:#4893ce;
+    color: #3873ae;
+    border-color:#3873ae;    
+    //color: #4893ce;
+    //border-color:#4893ce;
 }
 
-.twitter{
+.twitter:hover{
     color: #62c6f8;
     border-color: #62c6f8;
-}
-.twitter:hover{
-    color: #82e6ff;
-    border-color: #82e6ff;
+    //color: #82e6ff;
+    //border-color: #82e6ff;
 }
 
-.youtube{
+.youtube:hover{
     color:#DD2826;
     border-color:#DD2826;
+    //color:#e26a6a;
+    //border-color:#e26a6a;
 }
-.youtube:hover{
-    color:#e26a6a;
-    border-color:#e26a6a;
+
+.social{
+    //width: 120px;
+    position: relative;
+    float: right;
+    margin-top: -10px;
+    margin-left: 30px;
+}
+@media screen and (max-width: 1000px) {
+ .social{
+    float:left;
+    margin-top: -12px;
+    margin-left:0px;
+    }   
+}
+.circle{
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+    padding: 2px 0 0 2px;
+    border: 2px solid;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+    .circle{
+        width: 25px;
+        height: 25px;
+        margin-top: 25px;
+        padding: 2px 0 0 2px;
+        border: 2px solid;
+        border-radius: 50%;
+        font-size: 12px;
+        color: #fff;
+    }  
+}
+
+@media screen and (max-width: 900px) {
+    .navbar-custom ul.nav li a{
+        font-size:10px;
+    }
+}
+
+.margin-top-50{
+    margin-top: 50px;
+}
+.margin-top-20{
+    margin-top: 20px;
+}
+
+form :-moz-placeholder{
+    color: #555 !important;
+    font-size: 18px;
+    font-style: italic;
+}
+
+form ::-moz-placeholder{
+    color: #555 !important;
+    font-size: 18px;
+    font-style: italic;
+}
+
+form :-ms-input-placeholder{
+    color: #555 !important;
+    font-size: 18px;
+    font-style: italic;
 }
